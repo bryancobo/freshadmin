@@ -53,4 +53,5 @@ $response = tap($kernel->handle(
 ))->send();
 
 echo  'ddd';
+echo  'ddd';
 $kernel->terminate($request, $response);
