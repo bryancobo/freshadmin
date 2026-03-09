@@ -52,4 +52,5 @@ $response = tap($kernel->handle(
     $request = Request::capture()
 ))->send();
 
+echo  'ddd';
 $kernel->terminate($request, $response);
